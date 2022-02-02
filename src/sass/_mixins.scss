@@ -1,0 +1,13 @@
+@mixin flexReset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin defaultBtn {
+  border: 1px solid $mainColor;
+  border-radius: 8px;
+  background: $white;
+  cursor: pointer;
+}

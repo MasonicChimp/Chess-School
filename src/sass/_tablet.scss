@@ -1,0 +1,123 @@
+@media (min-width: 768px) {
+  //Nav
+
+  .nav {
+    &__logo {
+      height: 70px;
+      width: 225px;
+    }
+
+    &__hamburger {
+      padding: 0 2.45em;
+    }
+
+    &__li {
+      font-size: 2.8rem;
+    }
+  }
+
+  //Header
+
+  .header {
+    height: 400px;
+    background-image: url('../img/header-medium.webp');
+
+    &__title {
+      text-transform: uppercase;
+    }
+
+    &__second-title {
+      padding: 1em 0.5em;
+      display: block;
+      color: $mainColor;
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+  }
+
+  //Section title
+
+  .section-title {
+    font-size: 3.8rem;
+  }
+
+  //About us
+
+  .about-us {
+    &__image {
+      padding: 0 2.8em;
+      height: 300px;
+    }
+
+    &__text-box {
+      padding: 0 2.5em;
+    }
+
+    &__text {
+      font-size: 1.92rem;
+    }
+  }
+
+  //Opinions
+
+  .opinions {
+    &__boxes {
+      margin: 0 2.5em;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__box {
+      margin: 2em;
+    }
+  }
+
+  //Offer
+
+  .offer {
+    &__cards-box {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__card {
+      margin: 0 1.5em 2em;
+      height: 380px;
+
+      &--special {
+        order: 1;
+      }
+    }
+
+    &__card-title {
+      font-size: 2.8rem;
+    }
+  }
+
+  //Products
+
+  .products {
+    padding: 0.2em 2.5em;
+
+    &__card {
+      margin: 1.5em 2em 1.5em 0;
+    }
+
+    &__img {
+      height: 320px;
+    }
+  }
+
+  //Contact
+
+  .contact {
+    padding: 0.2em 2em;
+
+    &__input,
+    &__textarea,
+    &__submit-btn {
+      font-size: 1.75rem;
+    }
+  }
+}
